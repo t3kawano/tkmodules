@@ -17,21 +17,21 @@ Put required file into place where you need.
 ## Usage
 - dotplot
 
-    dotplot aka swarmplot/Beeswarmplot. 
-
-    median with inter quatile range are shown as bars.
+    Dotplot aka swarmplot/Beeswarmplot. 
+    
+    Median with inter quatile range are shown as bars in default.
+    
+    `def dotplots(_thedata, **kwargs):`
 
     _thedata: list of list: [[],[]...]. not numpy array. or melted form of pandas.Dataframe. if melted form, label must come first column
 
-    ylim: (min, max)
-    
-    **kwargs could be labels, groupnames ylim, size,thickness,
-     binnum, coeff, sort, figsize
-    
+    **kwargs could be labels, groupnames ylim, size,thickness, binnum, coeff, sort, figsize
+
+    ylim: (min, max)    
     
     191227 
     
-    smct (measures of central tendency) = "mean" or "median"
+    mct (measures of central tendency) = "mean" or "median"
     
     errorbar = "sd" or "se"
 
