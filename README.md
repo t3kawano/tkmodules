@@ -15,6 +15,7 @@ Put required file into place where you need.
 
 
 ## Usage
+
 - dotplot
 
     Dotplot aka swarmplot/Beeswarmplot. 
