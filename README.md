@@ -5,8 +5,12 @@
 modules written by tk
 
 ## Requirement
-- python3
-
+- python3.11
+- numpuy
+- pandas
+- matplotlib
+- scipy
+- statsmodels
 
 ## Installation
 Setup python3 environment.
